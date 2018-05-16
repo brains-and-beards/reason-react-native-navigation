@@ -1,31 +1,40 @@
 {
-	"name": "reason-react-native-navigation",
-	"version": "0.1.0",
-	"description": "This is a simple react native navigation written in reason.",
-	"scripts": {
+  "name": "reason-react-native-navigation",
+  "version": "0.1.0",
+  "description": "This is a simple react native navigation written in reason.",
+  "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "exit 0"
-	},
-	"license": "MIT",
-	"keywords": ["reason", "navigation", "reasonml","bucklescript", "react-native"],
-	"author": "",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/szymonzmyslony/reason-react-native-navigation.git"
-	},
-	"homepage": "https://github.com/szymonzmyslony/reason-react-native-navigation#readme",
-	"bugs": "https://github.com/szymonzmyslony/reason-react-native-navigation/issues",
-	"devDependencies": {
-		"bs-platform": "^1.9.0"
-	},
-	"dependencies": {
-		"reason-react": "^0.2.3",
-				"bs-react-native": "0.1.0"
-
-	},
-	"peerDependencies": {
-		"react-native": "^0.46.0"
-	}
+  },
+  "license": "MIT",
+  "keywords": [
+    "reason",
+    "navigation",
+    "reasonml",
+    "bucklescript",
+    "react-native"
+  ],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url":
+      "https://github.com/szymonzmyslony/reason-react-native-navigation.git"
+  },
+  "homepage":
+    "https://github.com/szymonzmyslony/reason-react-native-navigation#readme",
+  "bugs":
+    "https://github.com/szymonzmyslony/reason-react-native-navigation/issues",
+  "devDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "dependencies": {
+    "bs-react-native": "0.6.0",
+    "npm": "^6.0.1",
+    "reason-react": "^0.3.4"
+  },
+  "peerDependencies": {
+    "react-native": "^0.46.0"
+  }
 }

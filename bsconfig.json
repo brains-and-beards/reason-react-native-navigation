@@ -1,9 +1,8 @@
 {
   "name": "reason-react-native-navigation",
   "bsc-flags": ["-bs-super-errors"],
-  "reason": {"react-jsx": 2},
-  "bs-dependencies": [ "bs-react-native", "reason-react"],
-  "sources": [
-      "src"
-  ]
+  "reason": { "react-jsx": 2 },
+  "bs-dependencies": ["bs-react-native", "reason-react"],
+  "refmt": 3,
+  "sources": ["src"]
 }
